@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10796604200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "User to navigate to location page",
+        "description": "",
+        "id": "test-functionality-of-locationpage;user-to-navigate-to-location-page",
+        "after": [
+          {
+            "result": {
+              "duration": 148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 805993400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is on Homepage",
+            "match": {
+              "location": "HomePageStepdefs.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 537237100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click on Location link",
+            "match": {
+              "location": "LocationPageStepdefs.userClickOnLocationLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2066717100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User to verify number of images present for existing locations",
+            "match": {
+              "location": "LocationPageStepdefs.userToVerifyNumberOfImagesPresentForExistingLocations()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 35,
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Test Functionality of LocationPage",
+    "description": "",
+    "id": "test-functionality-of-locationpage",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/LocationPage.feature"
+  }
+]
